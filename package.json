@@ -15,9 +15,9 @@
   },
   "keywords": ["ai", "agents", "langgraph", "typescript", "multi-agent"],
   "dependencies": {
-    "@langchain/langgraph": "^0.0.26",
-    "@langchain/core": "^0.2.0",
-    "@langchain/openai": "^0.1.0",
+    "@langchain/langgraph": "^0.2.9",
+    "@langchain/core": "^0.3.80",
+    "@langchain/openai": "^0.3.16",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
