@@ -75,9 +75,9 @@ examples/           - Different usage patterns
 Want to add a custom agent? Just create a new function that takes the state and returns an updated state:
 
 ```typescript
-async function myAgent(state: AgentState): Promise<AgentState> {
+async function myAgent(state: AgentState): Promise<Partial<AgentState>> {
   // do your thing
-  return { ...state, /* your changes */ };
+  return { /* your partial state changes */ };
 }
 ```
 
